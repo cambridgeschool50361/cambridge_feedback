@@ -1,6 +1,42 @@
-.school-logo {
+/*.school-logo {
     width: 40px;       /* adjust size */
     height: auto;
     display: block;
     margin: 0 auto 10px;  /* center the image */
+}*/
+
+
+.card {
+    width: 100%;
+    max-width: 500px;        /* controls card size */
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Logo Styling */
+.school-logo {
+    width: 100%;
+    max-width: 250px;        /* prevents oversized image */
+    height: auto;            /* keeps proper ratio */
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+/* Headings */
+.card h2 {
+    font-size: 22px;
+    margin: 8px 0;
+    color: #333;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
 }
